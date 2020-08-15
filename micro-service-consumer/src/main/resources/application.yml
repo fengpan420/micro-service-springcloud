@@ -1,0 +1,12 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: micro-service-consumer
+eureka:
+  client:
+    registerWithEureka: false #不注册到Eureka,不在注册中心显示
+    service-url:
+      defaultZone: http://localhost:8761/eureka #告诉服务提供者要把服务注册到哪儿
+instance:
+  prefer-ip-address: true #显示客户端真实ip
