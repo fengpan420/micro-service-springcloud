@@ -1,0 +1,2 @@
+org.fengpp.springcloud.service.impl.HelloServiceOneImpl
+org.fengpp.springcloud.service.impl.HelloServiceTwoImpl
