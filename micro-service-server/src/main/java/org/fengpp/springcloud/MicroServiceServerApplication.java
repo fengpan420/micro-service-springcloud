@@ -13,6 +13,6 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 //服务注册中心入口类
 public class MicroServiceServerApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MicroServiceServerApplication.class);
+        SpringApplication.run(MicroServiceServerApplication.class, args);
     }
 }
